@@ -1,7 +1,7 @@
 BOT_TOKEN 5227175154:AAEnOvVc-_nDY0MlzqODYeCOJqZ7VrvRqhQ
 CHAT_ID id 200252479
 
-
+// конфигурация
  curl -X POST \
      -H 'Content-Type: application/json' \
      -d '{"chat_id": "200252479", "text": "This is a test from aletca, and"}' \

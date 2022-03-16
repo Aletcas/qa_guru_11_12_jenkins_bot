@@ -16,7 +16,7 @@ java \
 "-Dconfig.file=notifications/telegram_config.json" \
 -jar notifications/allure-notifications-3.1.2.jar
 
-
+// может быть одной строкой
 // Jenkins
 java \
 "-DprojectName=${PROJECT_NAME}" \
