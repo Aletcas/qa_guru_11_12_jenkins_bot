@@ -1,8 +1,16 @@
 BOT_TOKEN 5227175154:AAEnOvVc-_nDY0MlzqODYeCOJqZ7VrvRqhQ
 CHAT_ID id 200252479
+приват id 1647854332
 
 // конфигурация
  curl -X POST \
      -H 'Content-Type: application/json' \
-     -d '{"chat_id": "200252479", "text": "This is a test from aletca, and"}' \
+     -d '{"chat_id": "-1001556375186", "text": "This is a test from aletca"}' \
      https://api.telegram.org/bot5227175154:AAEnOvVc-_nDY0MlzqODYeCOJqZ7VrvRqhQ/sendMessage
+
+
+// в личку
+   curl -X POST \
+        -H 'Content-Type: application/json' \
+        -d '{"chat_id": "1647854332", "text": "This is a test"}' \
+        https://api.telegram.org/bot5227175154:AAEnOvVc-_nDY0MlzqODYeCOJqZ7VrvRqhQ/sendMessage

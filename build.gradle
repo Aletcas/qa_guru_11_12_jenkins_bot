@@ -69,4 +69,6 @@ task smoke_test(type: Test) {
 }
 
 
-
+//"token": "5227175154:AAEnOvVc-_nDY0MlzqODYeCOJqZ7VrvRqhQ",
+//"chat": "200252479",
+// на чат -1001556375186,
